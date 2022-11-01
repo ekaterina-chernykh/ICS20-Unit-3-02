@@ -18,6 +18,15 @@ if (navigator.serviceWorker) {
 /**
  * This function displays an alert.
  */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+ function myButtonClicked() {
+  // input
+  const length = parseFloat(document.getElementById("length").value)
+  const width = parseFloat(document.getElementById("width").value)
+  const height = parseFloat(document.getElementById("height").value)
+
+  // process
+  const volume = (length × width × height) / 3
+
+  // output
+  document.getElementById("volume").innerHTML = "Volume is: " + volume + "mm³"
 }
