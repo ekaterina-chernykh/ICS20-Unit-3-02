@@ -18,7 +18,7 @@ if (navigator.serviceWorker) {
 /**
  * This function displays an alert.
  */
- function myButtonClicked() {
+function myButtonClicked() {
   // input
   const length = parseFloat(document.getElementById("length").value)
   const width = parseFloat(document.getElementById("width").value)
