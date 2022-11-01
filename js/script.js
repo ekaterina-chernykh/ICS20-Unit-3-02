@@ -25,7 +25,7 @@ if (navigator.serviceWorker) {
   const height = parseFloat(document.getElementById("height").value)
 
   // process
-  const volume = (length × width × height) / 3
+  const volume = (length * width * height) / 3
 
   // output
   document.getElementById("volume").innerHTML = "Volume is: " + volume + "mm³"
